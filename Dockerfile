@@ -22,4 +22,4 @@ COPY ./notebooks ./notebooks
 EXPOSE 8888
 
 # Run jupyter notebooks when the container launches
-CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--allow-root"]
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser","--allow-root", "--NotebookApp.token=''"]
