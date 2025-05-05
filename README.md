@@ -47,6 +47,12 @@ These skills have strengthened my foundation in NLP and prepared me to explore m
 
 ### 🐳 How to Run It with Docker
 
+If you're new to Docker, start by [installing Docker Desktop](https://www.docker.com/products/docker-desktop/) for your operating system (Windows, macOS, or Linux).
+
+Once installed, make sure Docker is **running** before moving on.
+
+---
+
 1. Clone the repo:
 
 ```bash
@@ -61,14 +67,20 @@ docker build -t nlp-bootcamp .
 
 3. Run the container:
 ```bash 
-docker run -it --rm -v $(pwd):/app nlp-bootcamp
+docker run --rm -p 8888:8888 -v $(pwd)/notebooks:/code/notebooks nlp-bootcamp
 ```
-> ✅ Works on macOS and Linux. If you're using macOS, make sure Docker has permission to access your working directory.
-> Make sure you have Docker installed and running on your machine. All dependencies are included in the Docker image.
+
+4. Open Browser: 
+
+http://localhost:8888/lab[http://localhost:8888/lab]
 
 ---
 
 ### 👋 Final Notes
+
+> ✅ Works on Windows, macOS and Linux. If you're using macOS, make sure Docker has permission to access your working directory.
+> Make sure you have Docker installed and running on your machine. All dependencies are included in the Docker image.
+
 Feel free to explore the notebooks, try out the examples, and adapt them to your own projects. 
 If you have any questions or want to connect, don’t hesitate to reach out:
 
