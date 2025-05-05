@@ -47,9 +47,12 @@ These skills have strengthened my foundation in NLP and prepared me to explore m
 
 ### 🐳 How to Run It with Docker
 
-If you're new to Docker, start by [installing Docker Desktop](https://www.docker.com/products/docker-desktop/) for your operating system (Windows, macOS, or Linux).
+If you're new to Docker, start by:
 
-Once installed, make sure Docker is **running** before moving on.
+- Creating a free account <a href="https://app.docker.com/signup" target="_blank">here</a>.
+- Installing Docker Desktop app <a href="https://www.docker.com/get-started/" target="_blank"> here</a> for your operating system (Windows, macOS, or Linux).
+
+Once installed, make sure Docker is **running** by opening the app, before moving on.
 
 ---
 
