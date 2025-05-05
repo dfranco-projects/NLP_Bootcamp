@@ -1,16 +1,14 @@
 # NLP Bootcamp
 
-Welcome to the **NLP Bootcamp** repository! This is an educational repository where I document the concepts and code learned throughout the **Natural Language Processing (NLP)** course I completed on Udemy. With a background in data science and academic experience in text mining, this course allowed me to consolidate foundational NLP concepts and expand my understanding of advanced techniques, including both classical methods and modern approaches like Generative AI. 
+Welcome to the **NLP Bootcamp** repository! This is an educational project where I document key NLP concepts through hands-on exercises and implementations. It reflects my effort to reinforce foundational techniques in Natural Language Processing, used widely in text mining, machine learning, and language understanding tasks.
 
-This repository is intended for **anyone looking to refine or fully learn the foundational concepts of NLP**.
+This repository is **ideal for anyone looking to refine or fully grasp the core concepts of NLP**.
 
-Course Link: [NLP - Natural Language Processing with Python for Beginners](https://www.udemy.com/course/nlp_natural_language_processing_python_beginners/)
+To make setup easy, I've included a Docker container so you can run everything without worrying about dependencies.
 
-### Overview
+---
 
-Throughout this course, I deepened my knowledge of NLP by learning how to process and analyze text data with Python. NLP is a crucial field in data science, and this course provided both the theoretical grounding and practical exercises to further solidify my understanding of the concepts used in text mining, machine learning, and language processing.
-
-### What I've Learned
+### 📘 Topics Covered
 
 - **Text Data Manipulation**: I refined my ability to work with strings and text data in Python, which serves as the foundation for all NLP tasks.
   
@@ -30,23 +28,50 @@ Throughout this course, I deepened my knowledge of NLP by learning how to proces
 
 - **Sentence Representation as Tabular Data**: I learned how to represent sentences in a structured, tabular format, making it easier to work with machine learning models.
 
-### Skills I've Retained
+---
 
-- A deep understanding of core NLP concepts and techniques.
+### 💡 Key Takeaways
+
+- A deeper understanding of core NLP concepts and techniques.
 - Advanced ability to manipulate and process text data using Python.
 - Expertise in tokenization, stemming, and lemmatization for text analysis.
-- Strong practical experience in training machine learning models for text classification tasks.
+- Practical experience in training machine learning models for text classification tasks.
 - Proficiency in extracting and processing text data from websites through web scraping.
-- Knowledge of advanced word embeddings techniques and their role in improving machine learning models.
-- Experience in building sentiment classifiers and applying them to real-world datasets.
-- In-depth understanding of how NLP techniques are applied in real-world NLP systems.
+- Familiarity with advanced word embedding techniques and their practical use.
+- Hands-on experience in building sentiment classifiers.
+- Insight into how NLP techniques are applied in real-world systems.
 
-These skills have reinforced my understanding of NLP and set me up to explore more advanced topics in the field. 
+These skills have strengthened my foundation in NLP and prepared me to explore more advanced topics in the field.
 
-Feel free to take a look, and if you have any questions or just want to chat, don't hesitate to reach out:
+---
+
+### 🐳 How to Run It with Docker
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/NLP_Bootcamp.git
+cd NLP_Bootcamp
+```
+
+2. Build the Docker image:
+
+```bash
+docker build -t nlp-bootcamp .
+```
+
+3. Run the container:
+```bash 
+docker run -it --rm -v $(pwd):/app nlp-bootcamp
+```
+> ✅ Works on macOS and Linux. If you're using macOS, make sure Docker has permission to access your working directory.
+> Make sure you have Docker installed and running on your machine. All dependencies are included in the Docker image.
+
+### 👋 Final Notes
+Feel free to explore the notebooks, try out the examples, and adapt them to your own projects. 
+If you have any questions or want to connect, don’t hesitate to reach out:
+
 -  [daniel.franco.inbox@gmail.com](mailto:daniel.franco.inbox@gmail.com)  
 -  [LinkedIn](https://www.linkedin.com/in/daniel-abrantes-franco/)
 
-Hope it helps you as well! ;)
-
-remote test
+Hope you find it useful! ;)
