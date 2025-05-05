@@ -79,16 +79,16 @@ docker run --rm -p 8888:8888 -v $(pwd)/notebooks:/code/notebooks nlp-bootcamp
 
 ---
 
-### 👋 Final Notes
+### Final Notes
 
-> ✅ Works on Windows, macOS and Linux. If you're using macOS, make sure Docker has permission to access your working directory. <br>
-> Make sure you have Docker installed and running on your machine. All dependencies are included in the Docker image. <br>
-> If you encounter issues, check Docker's logs or permissions.
+* Works on Windows, macOS and Linux. If you're using macOS, make sure Docker has permission to access your working directory. <br>
+* Make sure you have Docker installed and running on your machine. All dependencies are included in the Docker image. <br>
+* If you encounter issues, check Docker's logs or permissions.
 
 Feel free to explore the notebooks, try out the examples, and adapt them to your own projects. 
 If you have any questions or want to connect, don’t hesitate to reach out:
 
 -  [daniel.franco.inbox@gmail.com](mailto:daniel.franco.inbox@gmail.com)  
--  [LinkedIn](https://www.linkedin.com/in/daniel-abrantes-franco/)
+-  <a href="https://www.linkedin.com/in/daniel-abrantes-franco/" target="_blank">LinkedIn</a>
 
 Hope you find it useful! ;)
