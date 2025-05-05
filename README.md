@@ -1,10 +1,10 @@
 # NLP Bootcamp
 
-Welcome to the **NLP Bootcamp** repository! This is an educational project where I document key NLP concepts through hands-on exercises and implementations. It reflects my effort to reinforce foundational techniques in Natural Language Processing, used widely in text mining, machine learning, and language understanding tasks.
+Welcome to the **NLP Bootcamp** repository! This is an educational repo where I document key NLP concepts through hands-on exercises and Jupyter Notebook implementations. It explores the core building blocks of NLP as applied in real-world tasks such as text mining, machine learning, and language understanding.
 
 This repository is **ideal for anyone looking to refine or fully grasp the core concepts of NLP**.
 
-To make setup easy, I've included a Docker container so you can run everything without worrying about dependencies.
+**To make setup easy, I've included a Docker container, so you can run everything in JupyterLab without worrying about dependencies.**
 
 ---
 
@@ -47,11 +47,10 @@ These skills have strengthened my foundation in NLP and prepared me to explore m
 
 ### 🐳 How to Run It with Docker
 
-1. Clone the repository:
+1. Clone the repo:
 
 ```bash
-git clone https://github.com/your-username/NLP_Bootcamp.git
-cd NLP_Bootcamp
+git clone https://github.com/your-username/NLP_Bootcamp.git && cd NLP_Bootcamp
 ```
 
 2. Build the Docker image:
