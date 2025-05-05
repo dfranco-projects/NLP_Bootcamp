@@ -67,6 +67,8 @@ docker run -it --rm -v $(pwd):/app nlp-bootcamp
 > ✅ Works on macOS and Linux. If you're using macOS, make sure Docker has permission to access your working directory.
 > Make sure you have Docker installed and running on your machine. All dependencies are included in the Docker image.
 
+---
+
 ### 👋 Final Notes
 Feel free to explore the notebooks, try out the examples, and adapt them to your own projects. 
 If you have any questions or want to connect, don’t hesitate to reach out:
