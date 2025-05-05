@@ -62,7 +62,7 @@ Once installed, make sure Docker is **running** by opening the app, before movin
 git clone https://github.com/your-username/NLP_Bootcamp.git && cd NLP_Bootcamp
 ```
 
-2. Build the Docker image:
+2. Build the Docker image (might take some time):
 
 ```bash
 docker build -t nlp-bootcamp .
@@ -73,9 +73,9 @@ docker build -t nlp-bootcamp .
 docker run --rm -p 8888:8888 -v $(pwd)/notebooks:/code/notebooks nlp-bootcamp
 ```
 
-4. Open Browser: 
+4. Open Browser (copy or click link bellow): 
 
-http://localhost:8888/lab[http://localhost:8888/lab]
+<a href="http://localhost:8888/lab" target="_blank">http://localhost:8888/lab</a>
 
 ---
 
@@ -83,6 +83,7 @@ http://localhost:8888/lab[http://localhost:8888/lab]
 
 > ✅ Works on Windows, macOS and Linux. If you're using macOS, make sure Docker has permission to access your working directory.
 > Make sure you have Docker installed and running on your machine. All dependencies are included in the Docker image.
+> If you encounter issues, check Docker's logs or permissions.
 
 Feel free to explore the notebooks, try out the examples, and adapt them to your own projects. 
 If you have any questions or want to connect, don’t hesitate to reach out:
