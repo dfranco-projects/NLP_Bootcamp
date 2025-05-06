@@ -11,9 +11,15 @@ RUN apt-get update && apt-get install -y \
 # Set working directory
 WORKDIR /code
 
-# Copy and install python dependencies ()
-COPY ./requirements.txt/ ./
+# Set NLTK environment variable
+ENV NLTK_DATA=/usr/share/nltk_data
+
+# Copy & install python dependencies
+COPY ./requirements.txt ./
 RUN pip install --no-cache-dir -U pip && pip install --no-cache-dir -r requirements.txt
+
+# Download nltk data
+RUN python3 -m nltk.downloader -d /usr/share/nltk_data punkt
 
 # Copy notebooks into the container
 COPY ./notebooks ./notebooks
