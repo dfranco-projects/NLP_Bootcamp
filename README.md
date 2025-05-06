@@ -1,94 +1,90 @@
-# NLP Bootcamp
+# 🧠 NLP Guidebook
 
-Welcome to the **NLP Bootcamp** repository! This is an educational repo where I document key NLP concepts through hands-on exercises and Jupyter Notebook implementations. It explores the core building blocks of NLP as applied in real-world tasks such as text mining, machine learning, and language understanding.
+Welcome to the **NLP Guidebook**! This educational repo provides a hands-on journey through the fundamentals of **Natural Language Processing** using Python, Jupyter Notebooks, and modern NLP libraries.
 
-This repository is **ideal for anyone looking to refine or fully grasp the core concepts of NLP**.
+Whether you're just getting started or brushing up on your NLP skills, this guidebook walks you through key NLP topics, from theory to implementation, helping you understand how machines process human language.
 
-**To make setup easy, I've included a Docker container, so you can run everything in JupyterLab without worrying about dependencies.**
+🧭 **Pipeline Overview**:  
+Text Input ➡️ Preprocessing ➡️ Tokenization ➡️ Feature Engineering ➡️ Modeling ➡️ Evaluation
+
+### ✅ What You’ll Learn
+
+- A practical understanding of essential NLP tasks and preprocessing steps.
+- Ability to build, clean, and process custom text corpora.
+- Familiarity with libraries like NLTK, SpaCy, and Scikit-learn.
+- Hands-on experience training NLP models from scratch.
+- Exposure to both classical machine learning and deep learning NLP approaches.
+
+> To simplify setup, the entire project runs inside a Docker container with JupyterLab — no manual installs or Python environments required.
+
+---
+
+### 🐳 Quickstart: Run with Docker
+
+Run the full environment with just one command.
+
+#### ✅ Prerequisites
+
+- <a href="https://app.docker.com/signup" target="_blank">Create a free account </a>.
+- <a href="https://www.docker.com/get-started/" target="_blank">Install Docker Desktop</a> and ensure it's running.
+- Clone the repository:
+
+```bash
+git clone https://github.com/dfranco-projects/NLP_Bootcamp.git && cd NLP_Bootcamp
+```
+
+#### 🚀 Launch the guidebook environment:
+
+```bash
+docker-compose up -d
+```
+
+Then open your browser and navigate to:
+
+<a href="http://localhost:8888/lab" target="_blank">http://localhost:8888/lab</a>
+
+> Everything runs in Docker — no setup headaches.
+
+---
+
+### 📚 NLP Guidebook Structure
+
+The project is organized as a series of Jupyter Notebooks, each aligned with an NLP concept:
+
+1. **00 - NLP Intro**: High-level NLP overview and pipeline theory.
+2. **01 - Corpus Webscraping**: Gathering legal, structured web text.
+3. **02 - Corpus Cleaning**: Text cleaning (HTML tags, noise removal) and normalization.
+4. **03 - Tokenization**: Segmenting text into sentences or words.
+5. **04 - Text Preprocessing**: Stopword removal, stemming, and lemmatization.
+6. **05 - Feature Engineering**: Representing text numerically (TF-IDF, embeddings, n-grams).
+7. **06 - Modeling**: Classical ML models (Naive Bayes, SVM) for text tasks.
+8. **07 - Advanced NLP Models**: Deep learning models (LSTMs, Transformers, BERT).
+9. **08 - Applications**: Real-world case studies like chatbots, summarization, or classification.
 
 ---
 
 ### 📘 Topics Covered
 
-- **Text Data Manipulation**: I refined my ability to work with strings and text data in Python, which serves as the foundation for all NLP tasks.
-  
-- **Tokenization**: I learned advanced techniques for breaking down text into words, sentences, or documents, enabling deeper analysis of textual content.
-
-- **Stemming and Lemmatization**: I deepened my understanding of reducing words to their root forms, an essential step for normalizing text data.
-
-- **Text Classification**: I trained machine learning models to categorize text into predefined classes, improving my ability to apply NLP in real-world scenarios.
-
-- **Part-of-Speech Tagging**: I explored how to analyze the grammatical structure of sentences by identifying the parts of speech for each word, an important step for understanding the meaning and function of text.
-
-- **Web Scraping for Text**: I enhanced my skills in extracting relevant text data from websites to use in various NLP applications.
-
-- **Word Embeddings**: I delved into neural network techniques to convert words into numerical representations, using embeddings like Word2Vec and GloVe for more powerful NLP applications.
-
-- **Sentiment Analysis**: I built a sentiment classifier to analyze and determine the sentiment of text, a popular NLP task for customer feedback and opinion mining.
-
-- **Sentence Representation as Tabular Data**: I learned how to represent sentences in a structured, tabular format, making it easier to work with machine learning models.
+- **Text Data Manipulation**: Working with raw and structured text data in Python.
+- **Tokenization**: Segmenting text into sentences, words, or characters.
+- **Stemming and Lemmatization**: Reducing words to their root forms.
+- **Text Classification**: Training ML models to categorize text (e.g., spam detection, sentiment).
+- **Part-of-Speech Tagging**: Identifying grammatical roles of words in a sentence.
+- **Web Scraping**: Extracting text data from websites for analysis.
+- **Word Embeddings**: Representing words as vectors (Word2Vec, GloVe).
+- **Sentiment Analysis**: Inferring emotional tone from textual data.
+- **Structured Text Representations**: Transforming text into tables for ML models.
 
 ---
 
-### 💡 Key Takeaways
+### 📬 Contact
 
-- A deeper understanding of core NLP concepts and techniques.
-- Advanced ability to manipulate and process text data using Python.
-- Expertise in tokenization, stemming, and lemmatization for text analysis.
-- Practical experience in training machine learning models for text classification tasks.
-- Proficiency in extracting and processing text data from websites through web scraping.
-- Familiarity with advanced word embedding techniques and their practical use.
-- Hands-on experience in building sentiment classifiers.
-- Insight into how NLP techniques are applied in real-world systems.
+Feel free to explore the notebooks, run the examples, and adapt them to your projects.
+If you have any questions or suggestions, reach out:
 
-These skills have strengthened my foundation in NLP and prepared me to explore more advanced topics in the field.
+- [daniel.franco.inbox@gmail.com](mailto:daniel.franco.inbox@gmail.com)  
+- <a href="https://www.linkedin.com/in/daniel-abrantes-franco/" target="_blank">LinkedIn</a>
 
 ---
 
-### 🐳 How to Run It with Docker
-
-If you're new to Docker, start by:
-
-- Creating a free account <a href="https://app.docker.com/signup" target="_blank">here</a>.
-- Installing Docker Desktop app <a href="https://www.docker.com/get-started/" target="_blank"> here</a> for your operating system (Windows, macOS, or Linux).
-
-Once installed, make sure Docker is **running** by opening the app, before moving on.
-
----
-
-1. Clone the repo:
-
-```bash
-git clone https://github.com/your-username/NLP_Bootcamp.git && cd NLP_Bootcamp
-```
-
-2. Build the Docker image (might take some time running):
-
-```bash
-docker build -t nlp-bootcamp .
-```
-
-3. Run the container:
-```bash 
-docker run --rm -p 8888:8888 -v $(pwd)/notebooks:/code/notebooks nlp-bootcamp
-```
-
-4. Open Browser (copy or click link bellow): 
-
-<a href="http://localhost:8888/lab" target="_blank">http://localhost:8888/lab</a>
-
----
-
-### Final Notes
-
-* Works on Windows, macOS and Linux. If you're using macOS, make sure Docker has permission to access your working directory. <br>
-* Make sure you have Docker installed and running on your machine. All dependencies are included in the Docker image. <br>
-* If you encounter issues, check Docker's logs or permissions.
-
-Feel free to explore the notebooks, try out the examples, and adapt them to your own projects. 
-If you have any questions or want to connect, don’t hesitate to reach out:
-
--  [daniel.franco.inbox@gmail.com](mailto:daniel.franco.inbox@gmail.com)  
--  <a href="https://www.linkedin.com/in/daniel-abrantes-franco/" target="_blank">LinkedIn</a>
-
-Hope you find it useful! ;)
+Hope you find it useful! 🚀
