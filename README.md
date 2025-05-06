@@ -30,7 +30,7 @@ Run the full environment with just one command.
 - Clone the repository:
 
 ```bash
-git clone https://github.com/dfranco-projects/NLP_Bootcamp.git && cd NLP_Bootcamp
+git clone https://github.com/dfranco-projects/NLP_Guidebook.git && cd NLP_Guidebook
 ```
 
 #### 🚀 Launch the guidebook environment:
