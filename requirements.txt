@@ -1,2 +1,4 @@
 nltk
 jupyterlab
+pandas
+numpy
