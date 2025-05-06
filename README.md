@@ -62,7 +62,7 @@ Once installed, make sure Docker is **running** by opening the app, before movin
 git clone https://github.com/your-username/NLP_Bootcamp.git && cd NLP_Bootcamp
 ```
 
-2. Build the Docker image (might take some time):
+2. Build the Docker image (might take some time running):
 
 ```bash
 docker build -t nlp-bootcamp .
