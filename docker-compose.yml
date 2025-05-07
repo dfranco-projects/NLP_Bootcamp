@@ -1,11 +1,11 @@
 version: '3.8'
 
 services:
-  nlp:
+  lab:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: nlp-bootcamp
+    container_name: nlp
     ports:
       - "8888:8888"
     volumes:
